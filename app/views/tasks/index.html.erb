@@ -1,0 +1,11 @@
+<h1>todoアプリ</h1>
+<ul>
+  <% @todos.each do |todo| %>
+  <li>
+  <%= check_box_tag "","" %>
+  <%= todo.title %>
+  </li>
+  <% end %>
+</ul>
+
+<%= link_to ""%>
